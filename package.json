@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "postinstall": "cd client && npm install",
-        "build": "cd client && npm run build",
+        "build": "cd client && npm run build && echo 'Build Complete, listing dist:' && ls -R dist || dir dist",
         "start": "npx serve -s client/dist"
     },
     "engines": {
