@@ -1,0 +1,33 @@
+:root {
+    /* Colors */
+    --color-primary: #0f172a;
+    /* Deep Blue / Slate 900 */
+    --color-secondary: #047857;
+    /* Emerald Green */
+    --color-accent: #be123c;
+    /* Maroon / Rose 700 */
+    --color-text-main: #1e293b;
+    --color-text-light: #64748b;
+    --color-background-light: #f8fafc;
+    /* Slate 50 */
+    --color-white: #ffffff;
+
+    /* Typography */
+    --font-main: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-heading: 'Outfit', sans-serif;
+    /* Modern geometric font */
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+
+    /* Borders & Shadows */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
